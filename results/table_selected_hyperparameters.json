@@ -1,0 +1,61 @@
+{
+  "Logistic regression": {
+    "solver": "saga",
+    "C": 0.01
+  },
+  "Random forest": {
+    "n_estimators": 500,
+    "min_samples_leaf": 1,
+    "max_depth": null
+  },
+  "Extra trees": {
+    "n_estimators": 500,
+    "min_samples_split": 5,
+    "max_depth": 10
+  },
+  "k-NN": {
+    "weights": "distance",
+    "n_neighbors": 15,
+    "metric": "manhattan"
+  },
+  "Decision tree": {
+    "min_samples_split": 10,
+    "max_depth": null
+  },
+  "Gradient boosting": {
+    "n_estimators": 200,
+    "max_depth": 5,
+    "learning_rate": 0.05
+  },
+  "Hist. gradient boosting": {
+    "max_iter": 200,
+    "max_depth": null,
+    "learning_rate": 0.05
+  },
+  "MLP": {
+    "hidden_layer_sizes": [
+      50
+    ],
+    "alpha": 0.01
+  },
+  "Naive Bayes": {},
+  "AdaBoost": {
+    "n_estimators": 200,
+    "learning_rate": 1.0
+  },
+  "XGBoost": {
+    "n_estimators": 200,
+    "max_depth": 10,
+    "learning_rate": 0.1
+  },
+  "CatBoost": {
+    "learning_rate": 0.1,
+    "iterations": 500,
+    "depth": 6
+  },
+  "LightGBM": {
+    "num_leaves": 31,
+    "n_estimators": 100,
+    "min_child_samples": 20
+  }
+}
